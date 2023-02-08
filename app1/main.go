@@ -9,11 +9,6 @@ import (
 )
 
 
-func Foo() {
-	fmt.Println("foo")
-	shared.PrintTheThing()
-}
-
 func main() {
 	fmt.Printf("hello from app2")
 	// fmt.Println(storage.NewClient(context.Background()))
