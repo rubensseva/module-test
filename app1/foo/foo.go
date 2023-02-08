@@ -6,6 +6,6 @@ import (
 )
 
 func Foo() {
-	fmt.Println("foo")
+	fmt.Println("hello from package foo")
 	shared.PrintTheThing()
 }
